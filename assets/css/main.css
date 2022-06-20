@@ -1,0 +1,143 @@
+/* Font Family Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /* disable selecting of site content */
+  /* user-select: none;
+  -webkit-user-select: none; */
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-color: #6ccff6;
+  --white-color: #fffffc;
+  --black-color: #021418;
+  /*------- Font and typography -------*/
+  --biggest-font-size: 1.25rem;
+  --h1-font-size: 3rem;
+  --normal-font-size: 1.2rem;
+  --small-font-size: 0.713rem;
+  --tiny-font-size: 0.625rem;
+}
+
+@media screen and (min-width: 1900px) {
+  :root {
+    --h1-font-size: 3.2rem;
+    --h4-font-size: 2rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 1rem;
+    --tiny-font-size: 0.688rem;
+  }
+}
+
+body {
+  background: var(--white-color);
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  color: var(--main-color);
+  font-weight: 800;
+}
+
+h1 {
+  font-weight: 800;
+  margin: 4vh 2vw;
+  font-size: var(--h1-font-size);
+}
+
+p {
+  font-weight: 400;
+  margin: 1vh auto;
+  font-size: var(--normal-font-size);
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+button {
+  padding: 1rem;
+  font-weight: 600;
+  font-size: var(--h4-font-size);
+  color: var(--white-color);
+  background: var(--main-color);
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+ul {
+  margin: 10px 0;
+  font-size: var(--normal-font-size);
+  list-style-type: none;
+}
+
+input {
+  border: 1px solid var(--main-color);
+  border-radius: 6px;
+  padding: 10px;
+  font-size: var(--normal-font-size);
+  width: 100%;
+  margin: 10px 0;
+}
+
+form {
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* header with background image */
+.header {
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/dark-cover.png");
+  color: var(--white-color);
+}
+
+.wrapper {
+  margin: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info_container li,
+.info_container span {
+  font-size: var(--normal-font-size);
+}
+
+.upload_image {
+  background-color: var(--main-color);
+  border: none;
+  width: fit-content;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+
+#message {
+  color: var(--main-color);
+  font-size: var(--normal-font-size);
+  font-weight: 600;
+  margin: 1rem 0;
+}
