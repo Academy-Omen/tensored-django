@@ -19,11 +19,30 @@ Bear 5
 - Knowledge in Python
 - Basic understanding of Django and the Web
 
+## Resources
+
+- [TensorFlow CNN Example](https://www.tensorflow.org/tutorials/images/cnn)
+- [Academy Omen Django Beginner's Tutorial](https://youtu.be/djNrEft8d_I)
+
+## Tools
+
+- [Python 3](https://www.python.org) : The Python Programming Language
+- [Django](https://www.djangoproject.com) : The Web Framework for Python
+- [TensorFlow](https://www.tensorflow.org) : The TensorFlow Machine Learning Library used to create the neural network
+
 ## Setup Instructions
 
 - Download and Install the latest Python 3 on your computer. [Install Now](https://www.python.org/downloads/)
 
-- Get the starter files
+- Get the starter files [here](hhttps://github.com/Academy-Omen/tensored-django/tree/starter)
+
+```bash
+# Download the start files or Clone the repository
+git clone https://github.com/Academy-Omen/tensored-django.git
+# switch to the starter branch
+cd tensored-django
+git checkout starter
+```
 
 - Create a virtual environment where all packages will be installed.
 
@@ -53,7 +72,7 @@ pip install -r requirements.txt
 
 We are building an Image classifier that can predict if the inputed image is a Cat, Dog, Monkey, Parrot, Elephant or Bear. We therefore need images of these animals. The images are going to be used to train our algorithm on how to recognize these animals. This is a supervised machine learning algorithm aka just like a teacher teaching a kid on how to recognize different animals.
 
-We will used the [Download All Images Chrome Extension](chrome-extension://ifipmflagepipjokmbdecpmjbibjnakm) which will help us download images automatically.
+We will used the [Download All Images Chrome Extension](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en) which will help us download images automatically.
 
 ## Label Dataset
 
@@ -123,7 +142,7 @@ python manage.py runserver
 
 - We will go ahead and update our settings.py file and then create a view that will perform the prediction and pass it to the frontend.
 
+## Let's Connect
 
-## Resources
-
-- [TensorFlow CNN Example](https://www.tensorflow.org/tutorials/images/cnn)
+- [Twitter](https://twitter.com/itz_omen/)
+- [Youtube](https://www.youtube.com/channel/UCknaAfNfqKQDQFnqP2zMA6A)
