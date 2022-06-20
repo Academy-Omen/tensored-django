@@ -43,7 +43,6 @@ body {
 }
 
 h1 {
-  color: var(--black-color);
   text-align: center;
 }
 
@@ -142,4 +141,3 @@ form {
   font-weight: 600;
   margin: 1rem 0;
 }
-
