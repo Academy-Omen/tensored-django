@@ -143,10 +143,3 @@ form {
   margin: 1rem 0;
 }
 
-.download {
-  width: 100%;
-  background: var(--black-color);
-}
-.download a {
-  color: var(--white-color);
-}
