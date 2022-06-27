@@ -2,6 +2,8 @@
 
 In this project we demonstrated how to use the tensorflow library to create a neural network that can be used to classify 6 different animals.
 
+## [Watch Tutorial](https://youtu.be/MUYh8MCboqw)
+
 ## Classes
 
 ```python
